@@ -19,8 +19,7 @@ function Entity(id, x_pos, y_pos) {
     this.player = this.id == BABA ? true : false;
     this.x_pos = x_pos;
     this.y_pos = y_pos;
-    this.movable = true;
-    this.block = true;
+    this.through = this.id == FLAG ? true : false;
 
     var changeProperties = function (n_id) {
         this.property = id < 100 ? id + 100 : id;
