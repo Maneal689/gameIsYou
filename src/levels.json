@@ -1,0 +1,24 @@
+{
+    "levels": {
+        "1" : {
+            "items": [
+                {
+                    "id": "BABA",
+                    "x_pos": 30,
+                    "y_pos": 20
+                },
+                {
+                    "id": "REAL_WALL",
+                    "x_pos": 15,
+                    "y_pos": 10
+                },
+                {
+                    "id": "ROCK",
+                    "x_pos": 10,
+                    "y_pos": 10
+                }
+            ]
+        }
+
+    }
+}
