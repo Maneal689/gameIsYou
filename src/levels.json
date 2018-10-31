@@ -1,21 +1,96 @@
 {
     "levels": {
-        "1" : {
+        "Tutorial" : {
             "items": [
                 {
-                    "id": "BABA",
-                    "x_pos": 30,
-                    "y_pos": 20
+                    "id": "WALL",
+                    "x_pos": 6,
+                    "y_pos": -1
+                },
+                {
+                    "id": "WALL",
+                    "x_pos": 7,
+                    "y_pos": 0
                 },
                 {
                     "id": "REAL_WALL",
-                    "x_pos": 15,
-                    "y_pos": 10
+                    "x_pos": 5,
+                    "y_pos": 0
                 },
                 {
-                    "id": "ROCK",
-                    "x_pos": 10,
-                    "y_pos": 10
+                    "id": "CRATE",
+                    "x_pos": 6,
+                    "y_pos": 1
+                },
+                {
+                    "id": "N_STAR",
+                    "x_pos": 0,
+                    "y_pos": 2
+                },
+                {
+                    "id": "N_IS",
+                    "x_pos": 1,
+                    "y_pos": 2
+                },
+                {
+                    "id": "P_WIN",
+                    "x_pos": 2,
+                    "y_pos": 2
+                },
+                {
+                    "id": "N_ROSHAN",
+                    "x_pos": 0,
+                    "y_pos": 0
+                },
+                {
+                    "id": "N_IS",
+                    "x_pos": 1,
+                    "y_pos": 0
+                },
+                {
+                    "id": "P_YOU",
+                    "x_pos": 2,
+                    "y_pos": 0
+                },
+                {
+                    "id": "N_WALL",
+                    "x_pos": 0,
+                    "y_pos": 4
+                },
+                {
+                    "id": "N_IS",
+                    "x_pos": 1,
+                    "y_pos": 4
+                },
+                {
+                    "id": "P_STOP",
+                    "x_pos": 2,
+                    "y_pos": 4
+                },
+                {
+                    "id": "N_CRATE",
+                    "x_pos": 0,
+                    "y_pos": 6
+                },
+                {
+                    "id": "N_IS",
+                    "x_pos": 1,
+                    "y_pos": 6
+                },
+                {
+                    "id": "P_PUSH",
+                    "x_pos": 2,
+                    "y_pos": 6
+                },
+                {
+                    "id": "ROSHAN",
+                    "x_pos": 3,
+                    "y_pos": 3
+                },
+                {
+                    "id": "STAR",
+                    "x_pos": 6,
+                    "y_pos": 0
                 }
             ]
         }
