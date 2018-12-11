@@ -299,51 +299,51 @@ function waitLoadImg() {
     var cpt = 0;
 
     GameImg[N_IS] = new Image();
-    GameImg[N_IS].src = "../images/is.png";
+    GameImg[N_IS].src = "./images/is.png";
 
     GameImg[REAL_WALL] = new Image();
-    GameImg[REAL_WALL].src = "../images/orange.png";
+    GameImg[REAL_WALL].src = "./images/orange.png";
 
 
     GameImg[ROSHAN] = new Image();
-    GameImg[ROSHAN].src = "../images/roshan.png";
+    GameImg[ROSHAN].src = "./images/roshan.png";
     GameImg[N_ROSHAN] = new Image();
-    GameImg[N_ROSHAN].src = "../images/NRoshan.png";
+    GameImg[N_ROSHAN].src = "./images/NRoshan.png";
 
     GameImg[WALL] = new Image();
-    GameImg[WALL].src = "../images/darkgray.png";
+    GameImg[WALL].src = "./images/darkgray.png";
     GameImg[N_WALL] = new Image();
-    GameImg[N_WALL].src = "../images/NWall.png";
+    GameImg[N_WALL].src = "./images/NWall.png";
 
     GameImg[CRATE] = new Image();
-    GameImg[CRATE].src = "../images/woodenCrate.png";
+    GameImg[CRATE].src = "./images/woodenCrate.png";
     GameImg[N_CRATE] = new Image();
-    GameImg[N_CRATE].src = "../images/NCrate.png";
+    GameImg[N_CRATE].src = "./images/NCrate.png";
 
     GameImg[STAR] = new Image();
-    GameImg[STAR].src = "../images/atmosphere.png";
+    GameImg[STAR].src = "./images/atmosphere.png";
     GameImg[N_STAR] = new Image();
-    GameImg[N_STAR].src = "../images/NStar.png";
+    GameImg[N_STAR].src = "./images/NStar.png";
 
 
     GameImg[P_WIN] = new Image();
-    GameImg[P_WIN].src = "../images/PWin.png";
+    GameImg[P_WIN].src = "./images/PWin.png";
 
     GameImg[P_YOU] = new Image();
-    GameImg[P_YOU].src = "../images/PYou.png";
+    GameImg[P_YOU].src = "./images/PYou.png";
 
     GameImg[P_PUSH] = new Image();
-    GameImg[P_PUSH].src = "../images/PPush.png";
+    GameImg[P_PUSH].src = "./images/PPush.png";
 
     GameImg[P_STOP] = new Image();
-    GameImg[P_STOP].src = "../images/PStop.png";
+    GameImg[P_STOP].src = "./images/PStop.png";
 
 
     GameImg["background"] = new Image();
-    GameImg["background"].src = "../images/background_empty_space.png";
+    GameImg["background"].src = "./images/background_empty_space.png";
 
     GameImg[CHECKBOX] = new Image();
-    GameImg[CHECKBOX].src = "../images/checkBox.png";
+    GameImg[CHECKBOX].src = "./images/checkBox.png";
 
     keys = Object.keys(GameImg)
     len = keys.length;
@@ -358,15 +358,14 @@ function waitLoadImg() {
 
 function loadLevels() {
     var jsonRes, request = new XMLHttpRequest();
-    request.open("GET", "./levels.json");
+    request.open("GET", "./src/levels.json");
     request.responseType = "json";
     request.send();
-
     request.onload = function() {
         jsonRes = request.response;
         levels = parseJsonLevels(jsonRes.levels);
         startMenu(levels);
-    }
+    };
 }
 function parseJsonLevels(jsonLvl) {
     var res = [];
