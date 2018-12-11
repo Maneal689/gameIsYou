@@ -358,7 +358,7 @@ function waitLoadImg() {
 
 function loadLevels() {
     var jsonRes, request = new XMLHttpRequest();
-    request.open('GET', "./levels.json");
+    request.open("GET", "./levels.json");
     request.responseType = "json";
     request.send();
 
